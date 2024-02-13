@@ -38,14 +38,14 @@ app.post('/', upload.single('resume'), (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'xayrullayevna571@gmail.com', 
-          pass: 'dtno jvol axza posj' 
+          user: 'newtruckdriverapplication@gmail.com', 
+          pass: 'ionc snty hlmh nstf' 
         }
     });
 
     const mailOptions = {
-        from: 'xayrullayevna571@gmail.com', // Sender's email address
-        to: 'xayrullayevna571@gmail.com',
+        from: 'newtruckdriverapplication@gmail.com', // Sender's email address
+        to: 'hr@7starsllc.com',
         subject: 'New truck driver application form submission',
         html: message, // Use HTML content for the email body
         attachments: [
